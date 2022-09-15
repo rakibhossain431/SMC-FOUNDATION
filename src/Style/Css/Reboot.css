@@ -1,20 +1,20 @@
 :root {
-  --font_body: 'DM Sans', sans-serif;
-  --font_title: 'DM Sans', sans-serif;
-  --primary_color: #F9F293 ;
-  --secondary_color: #2871FF;
-  --button_color: #F7C845;
+  --font_body: "DM Sans", sans-serif;
+  --font_title: "DM Sans", sans-serif;
+  --primary_color: #f9f293;
+  --secondary_color: #2871ff;
+  --button_color: #f7c845;
   --body_color: #000000;
   --title_color: #000000;
-  --meta_color: #1C2633;
+  --meta_color: #1c2633;
   --transition: all 0.3s ease-in-out;
-  --font-awesome: 'Font Awesome 5 Pro';
-  --light-grey: #F9F9F9;
+  --font-awesome: "Font Awesome 5 Pro";
+  --light-grey: #f9f9f9;
 }
 
 /*=======================================================================
-1. Typography
-=========================================================================*/
+  1. Typography
+  =========================================================================*/
 body {
   font-size: 16px;
   font-family: var(--font_body);
@@ -73,8 +73,8 @@ h6 {
 }
 
 /*=======================================================================
-2. Template Default Style
-=========================================================================*/
+  2. Template Default Style
+  =========================================================================*/
 html {
   height: 100%;
 }
@@ -124,27 +124,6 @@ ul {
   list-style: outside none none;
 }
 
-.wrapper {
-  overflow: hidden;
-}
-
-body.loaded .wrapper {
-  opacity: 1;
-  visibility: visible;
-}
-
-@media (min-width: 1140px) {
-  .container {
-    /* max-width: 1180px; */
-  }
-}
-
-.smc-section {
-  padding-top: 70px;
-  padding-bottom: 75px;
-  position: relative;
-}
-
 @media (max-width: 1199px) {
   .smc-section {
     padding: 70px 0 75px;
@@ -169,11 +148,6 @@ body.loaded .wrapper {
   }
 }
 
-.smc-section-top {
-  padding-top: 70px;
-  position: relative;
-}
-
 @media (max-width: 1199px) {
   .smc-section-top {
     padding: 70px 0 0;
@@ -196,11 +170,6 @@ body.loaded .wrapper {
   .smc-section-top {
     padding: 70px 0 0;
   }
-}
-
-.smc-section-bottom {
-  padding-bottom: 75px;
-  position: relative;
 }
 
 @media (max-width: 1199px) {
@@ -442,11 +411,11 @@ body.loaded .wrapper {
 }
 
 /*========================================================================
-4. Template Elements
-=========================================================================*/
+  4. Template Elements
+  =========================================================================*/
 /*========================================================================
-4. Template Elements
-=========================================================================*/
+  4. Template Elements
+  =========================================================================*/
 .btn-fill {
   width: 180px;
   height: 48px;
@@ -506,7 +475,7 @@ body.loaded .wrapper {
   width: 100%;
   color: #fff;
 }
-.entry-content{
+.entry-content {
   text-align: center;
 }
 .banner-content .entry-title {
@@ -524,8 +493,6 @@ body.loaded .wrapper {
   line-height: 31px;
   margin-bottom: 45px;
   color: rgba(255, 255, 255, 1);
-
-  ;
 }
 
 @media only screen and (max-width: 767px) {
@@ -550,7 +517,8 @@ body.loaded .wrapper {
   }
 }
 .banner-1 {
-  background-image: url("../public/images/Banner/banner1.png");
+  background-image: url("../../../public/images/Banner/banner1.png");
+  background-color: #000000;
 }
 
 .banner-1 .banner-content {
@@ -565,7 +533,5 @@ body.loaded .wrapper {
     min-height: 632px;
   }
 }
-
-
 
 /* Banner */
