@@ -123,7 +123,10 @@ img {
 ul {
   list-style: outside none none;
 }
-
+.container{
+  width: 90%;
+  margin: auto;
+}
 .wrapper {
   overflow: hidden;
 }
@@ -566,6 +569,17 @@ body.loaded .wrapper {
   }
 }
 
+.revolution{
+  display: flex;
+  justify-content: space-between;
+}
+.r-title{
+  text-align: center;
+}
+.r-box{
+  width: 17%;
+  text-align: center;
 
+}
 
 /* Banner */
